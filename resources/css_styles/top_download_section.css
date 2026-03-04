@@ -101,7 +101,7 @@ h2 {
 }
 @media screen and (max-width: 640px) {
   .download_amigo_button_bottom_section {
-    padding-bottom: 0.20vh;
+    padding-bottom: 0.12vh;
   }
 }
 
