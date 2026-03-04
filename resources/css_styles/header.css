@@ -46,7 +46,7 @@ header {
 }
 @media screen and (max-width: 640px) {
   .header_left_button_image {
-    width: 3.5vw;
+    width: 3vw;
   }
 }
 
