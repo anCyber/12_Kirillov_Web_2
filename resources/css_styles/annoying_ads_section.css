@@ -79,7 +79,7 @@ h5 {
 }
 @media screen and (max-width: 640px) {
   h5 {
-    font-size: clamp(1px, 1.4vw, 100px);
+    font-size: clamp(1px, 1.8vw, 100px);
   }
 }
 
@@ -94,7 +94,7 @@ h5 {
 }
 @media screen and (max-width: 640px) {
   .annoying_ad_link {
-    font-size: clamp(1px, 1.15vw, 100px);
+    font-size: clamp(1px, 1.4vw, 100px);
   }
 }
 
@@ -107,7 +107,7 @@ h5 {
 }
 @media screen and (max-width: 640px) {
   .annoying_ad_text {
-    font-size: clamp(1px, 1.15vw, 100px);
+    font-size: clamp(1px, 1.4vw, 100px);
   }
 }
 

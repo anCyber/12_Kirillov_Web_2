@@ -6,6 +6,7 @@ header {
 
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  column-gap: 2vw;
 
   padding: 1.5vh 2.5vw;
 
@@ -41,6 +42,11 @@ header {
 .header_left_button_image {
   width: 2.5vw;
   aspect-ratio: 1 / 1;
+}
+@media screen and (max-width: 640px) {
+  .header_left_button_image {
+    width: 5vw;
+  }
 }
 
 

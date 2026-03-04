@@ -99,6 +99,11 @@ h2 {
   column-gap: 1.5vw;
   padding-bottom: 0.35vh;
 }
+@media screen and (max-width: 640px) {
+  .download_amigo_button_bottom_section {
+    padding-bottom: 0.20vh;
+  }
+}
 
 
 .download_amigo_green_button_text {

@@ -63,6 +63,11 @@ h3 {
   margin: 0px;
   text-align: center;
 }
+@media screen and (max-width: 640px) {
+  h3 {
+    font-size: clamp(4px, 3.25vw, 100px);
+  }
+}
 
 
 .advertisement_content_bottom_section {
@@ -88,6 +93,11 @@ h3 {
   font-size: clamp(6px, 1.25vw, 100px);
   font-weight: 200;
   color: rgba(246, 246, 246, 0.7);
+}
+@media screen and (max-width: 640px) {
+  .advertisement_section_text {
+    font-size: clamp(4px, 1.7vw, 100px);
+  }
 }
 
 .gdz_image {
@@ -161,6 +171,11 @@ li {
   font-weight: 200;
   font-size: clamp(6px, 1.25vw, 100px);
   margin: 0px;
+}
+@media screen and (max-width: 640px) {
+  li {
+    font-size: clamp(4px, 1.6vw, 100px);
+  }
 }
 
 
@@ -260,6 +275,11 @@ h4 {
   text-decoration: underline;
   text-underline-offset: 0.5vh;
 }
+@media screen and (max-width: 640px) {
+  h4 {
+    font-size: clamp(4px, 1.9vw, 100px);
+  }
+}
 
 
 .review_section_text {
@@ -267,4 +287,9 @@ h4 {
   font-size: clamp(4px, 0.8vw, 100px);
   font-weight: 200;
   color: rgba(246, 246, 246, 0.7);
+}
+@media screen and (max-width: 640px) {
+  .review_section_text {
+    font-size: clamp(4px, 1.3vw, 100px);
+  }
 }
