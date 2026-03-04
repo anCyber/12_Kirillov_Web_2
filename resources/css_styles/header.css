@@ -38,6 +38,11 @@ header {
   cursor: pointer;
   aspect-ratio: 1 / 1;
 }
+@media screen and (max-width: 640px) {
+  .header_left_button_image {
+    padding: min(0.30vh, 0.65vw);
+  }
+}
 
 .header_left_button_image {
   width: 2.5vw;
