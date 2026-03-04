@@ -37,18 +37,14 @@ header {
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.60);
   cursor: pointer;
   aspect-ratio: 1 / 1;
-  max-width: 45%;
+  max-width: 40%;
 }
 
 .header_left_button_image {
-  width: 2.5vw;
+  width: 67%;
   aspect-ratio: 1 / 1;
 }
-@media screen and (max-width: 640px) {
-  .header_left_button_image {
-    width: 2vw;
-  }
-}
+
 
 
 .header_center_title_background {
