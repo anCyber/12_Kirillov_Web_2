@@ -70,6 +70,7 @@ button {
 }
 
 .header_left_button,
+.header_left_buttons_horizontal_flexbox,
 .header_center_title_background,
 .header_right_button,
 .top_download_section,
@@ -167,7 +168,6 @@ header {
 }
 
 .header_left_buttons_horizontal_flexbox {
-  display: flex;
   column-gap: 10%;
 }
 
@@ -177,7 +177,7 @@ header {
   border: none;
   border-radius: 25%;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.60);
-  max-width: 45%;
+  width: 45%;
 }
 .header_left_button_image {
   width: 72%;
