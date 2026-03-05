@@ -684,6 +684,10 @@ footer {
     row-gap: 5vw;
   }
 
+  h3 {
+    font-size: 2.7vw;
+  }
+
   .advertisement_content_bottom_section {
     flex-direction: row;
     column-gap: min(5vh, 2vw);
@@ -705,6 +709,14 @@ footer {
   .review_section_foreground {
     width: 80%;
     margin: 0px auto;
+  }
+
+  h4 {
+    font-size: 1.5vw;
+  }
+
+  .review_section_text {
+    font-size: 1.25vw;
   }
 
   .annoying_ads_grid {
@@ -740,6 +752,7 @@ footer {
   li {
     font-size: 2.1vw;
   }
+  
 
   .reviews_section_background { 
     grid-template: repeat(5, auto) / 1fr;
@@ -755,7 +768,7 @@ footer {
   }
 
   .review_section_text {
-    font-size: 2vw;
+    font-size: 2.1vw;
   }
 
   .annoying_ads_grid {
