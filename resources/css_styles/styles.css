@@ -172,7 +172,7 @@ header {
 }
 
 .header_left_button {
-  padding: 0px;
+  padding: min(1.0vh, 0.65vw);
   background-color: var(--header-buttons-background-color);
   border: none;
   border-radius: 25%;
@@ -180,7 +180,7 @@ header {
   max-width: 45%;
 }
 .header_left_button_image {
-  width: 62%;
+  width: 72%;
 }
 
 .header_center_title_background {
@@ -200,7 +200,7 @@ h1 {
 }
 
 .header_right_button {
-  padding: 0px;
+  padding: min(1.75vh, 1.1vw) min(3vh, 1.5vw);
   background-color: var(--header-buttons-background-color);
   border: none;
   border-radius: 0.67vw;
@@ -208,7 +208,7 @@ h1 {
 }
 
 .header_right_button_image {
-  width: 75%;
+  width: 8.5vw;
 }
 
 
