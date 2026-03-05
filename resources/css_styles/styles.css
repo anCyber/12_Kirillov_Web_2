@@ -154,7 +154,7 @@ header {
   right: 0px;
 
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 6fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   column-gap: 2vw;
 
   padding: 1.5vh 2.5vw;
@@ -177,7 +177,7 @@ header {
   border: none;
   border-radius: 25%;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.60);
-  width: 45%;
+  width: 40%;
 }
 .header_left_button_image {
   width: 72%;
@@ -195,7 +195,7 @@ header {
 
 h1 {
    color: #535353;
-   font-size: clamp(1px, 2.5vw, 100px);
+   font-size: clamp(14px, 2.5vw, 100px);
    font-weight: 600;
 }
 
@@ -220,7 +220,7 @@ h1 {
 
 h2 {
   color: var(--heading-color);
-  font-size: clamp(12px, 3.8vw, 100px);
+  font-size: clamp(21px, 3.8vw, 100px);
   font-weight: 400;
   margin-bottom: 5vh;
 }
@@ -289,7 +289,7 @@ h2 {
 
 
 .download_amigo_green_button_text {
-  font-size: clamp(12px, 4.5vw, 100px);
+  font-size: clamp(8px, 4.5vw, 100px);
   color: rgba(255, 255, 255, 1.0);
 }
 
@@ -300,13 +300,13 @@ h2 {
 
 .download_amigo_white_button_text {
   color: #1A1A1A;
-  font-size: clamp(6px, 1vw, 100px);
+  font-size: clamp(4px, 1vw, 100px);
 }
 
 .download_amigo_white_button_image {
   height: 1.25vw;
   border-radius: 50%;
-  box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.20);
+  box-shadow: 0px 0px 0.15vw 0.15vw rgba(255, 255, 255, 0.20);
 }
 
 
@@ -348,7 +348,7 @@ h2 {
 
 h3 {
   color: var(--heading-color);
-  font-size: clamp(8px, 2.4vw, 100px);
+  font-size: clamp(23px, 2.4vw, 100px);
   font-weight: 400;
   text-align: center;
 }
@@ -516,22 +516,19 @@ h4 {
 
 h5 {
   color: rgba(246, 246, 246, 0.80);
-  font-size: clamp(1px, 0.90vw, 100px);
+  font-size: 0.90vw;
   font-weight: 300;
 }
 
-.annoying_ad_link {
-  color: var(--ads-secondary-text-color);
-  font-size: clamp(1px, 0.75vw, 100px);
-  font-weight: 200;
-  text-decoration: underline;
-  text-underline-offset: 0.25vh;
-}
-
+.annoying_ad_link,
 .annoying_ad_text {
   color: var(--ads-secondary-text-color);
-  font-size: clamp(1px, 0.75vw, 100px);
+  font-size: 0.75vw;
   font-weight: 200;
+}
+.annoying_ad_link {
+  text-decoration: underline;
+  text-underline-offset: 0.25vh;
 }
 
 .annoying_ads_download_buttons_vertical_flexbox {
@@ -565,13 +562,13 @@ h5 {
 }
 
 .annoying_ad_download_button_text {
-  font-size: clamp(1px, 2.95vw, 100px);
+  font-size: 2.95vw;
   color: rgba(255, 255, 255, 1.0);
 }
 
 .annoying_ad_download_button_additional_software_text {
   color: rgba(26, 26, 26, 0.40);
-  font-size: clamp(1px, 1vw, 100px);
+  font-size: 1vw;
 
   position: absolute;
   bottom: 0.45vh;
@@ -606,7 +603,7 @@ footer {
 
   color: var(--footer-text-color);
   font-family: var(--footer-text-font);
-  font-size: clamp(1px, 1.25vw, 100px);
+  font-size: clamp(14px, 1.25vw, 100px);
 
   box-shadow: var(--footer-plates-box-shadow);
 }
@@ -620,7 +617,7 @@ footer {
 
   color: var(--footer-text-color);
   font-family: var(--footer-text-font);
-  font-size: clamp(1px, 1.70vw, 100px);
+  font-size: clamp(16px, 1.70vw, 100px);
 
   box-shadow: var(--footer-plates-box-shadow);
 }
@@ -733,15 +730,15 @@ footer {
   }
 
   h3 {
-    font-size: clamp(4px, 3.8vw, 100px);
+    font-size: clamp(14px, 3.6vw, 100px);
   }
 
   .advertisement_section_text {
-    font-size: clamp(4px, 2.25vw, 100px);
+    font-size: clamp(12px, 2.25vw, 100px);
   }
 
   li {
-    font-size: clamp(4px, 2.1vw, 100px);
+    font-size: clamp(12px, 2.1vw, 100px);
   }
 
   .reviews_section_background { 
@@ -754,11 +751,11 @@ footer {
   }
 
   h4 {
-    font-size: clamp(4px, 2.6vw, 100px);
+    font-size: clamp(15px, 2.6vw, 100px);
   }
 
   .review_section_text {
-    font-size: clamp(4px, 2vw, 100px);
+    font-size: clamp(12px, 2vw, 100px);
   }
 
   .annoying_ads_grid {
@@ -768,15 +765,15 @@ footer {
   }
 
   h5 {
-    font-size: clamp(1px, 1.8vw, 100px);
+    font-size: 1.8vw;
   }
 
   .annoying_ad_link {
-    font-size: clamp(1px, 1.4vw, 100px);
+    font-size: clamp(8px, 1.4vw, 100px);
   }
 
   .annoying_ad_text {
-    font-size: clamp(1px, 1.4vw, 100px);
+    font-size: clamp(8px, 1.4vw, 100px);
   }
 
   .annoying_ads_download_buttons_vertical_flexbox {
@@ -788,20 +785,20 @@ footer {
   }
 
   .annoying_ad_download_button_text {
-    font-size: clamp(1px, 5vw, 100px);
+    font-size: clamp(22px, 5vw, 100px);
   }
 
   .annoying_ad_download_button_additional_software_text {
-    font-size: clamp(1px, 1.75vw, 100px);
+    font-size: clamp(10px, 1.75vw, 100px);
     bottom: 0.9vh;
   }
 
   .footer_name_plate {
-    font-size: clamp(1px, 2.25vw, 100px);
+    font-size: clamp(12px, 2.25vw, 100px);
   }
 
   .footer_lab_text_plate {
-    font-size: clamp(1px, 3vw, 100px);
+    font-size: clamp(14px, 3vw, 100px);
   }
 
   .footer_social_icon {
