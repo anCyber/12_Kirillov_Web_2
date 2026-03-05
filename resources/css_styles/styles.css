@@ -24,6 +24,7 @@
   /* FOOTER RELATED */
   --footer-text-font: 'Poiret One';
   --footer-text-color: rgba(68, 47, 75, 0.90);
+  --footer-plates-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.40);
   --discord-fill-color: #6E71FF;
   --telegram-fill-color: #578FFF;
   --youtube-fill-color: #FF1616;
@@ -167,19 +168,19 @@ header {
 
 .header_left_buttons_horizontal_flexbox {
   display: flex;
-  column-gap: 14%;
+  column-gap: 10%;
 }
 
 .header_left_button {
-  padding: min(1.0vh, 0.65vw);
+  padding: 0px;
   background-color: var(--header-buttons-background-color);
   border: none;
   border-radius: 25%;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.60);
-  max-width: 43%;
+  max-width: 45%;
 }
 .header_left_button_image {
-  width: 67%;
+  width: 62%;
 }
 
 .header_center_title_background {
@@ -199,7 +200,7 @@ h1 {
 }
 
 .header_right_button {
-  padding: min(1.75vh, 1.1vw) min(3vh, 1.5vw);
+  padding: 0px;
   background-color: var(--header-buttons-background-color);
   border: none;
   border-radius: 0.67vw;
@@ -207,7 +208,7 @@ h1 {
 }
 
 .header_right_button_image {
-  width: 8vw;
+  width: 75%;
 }
 
 
@@ -607,7 +608,7 @@ footer {
   font-family: var(--footer-text-font);
   font-size: clamp(1px, 1.25vw, 100px);
 
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: var(--footer-plates-box-shadow);
 }
 
 .footer_lab_text_plate {
@@ -621,7 +622,7 @@ footer {
   font-family: var(--footer-text-font);
   font-size: clamp(1px, 1.70vw, 100px);
 
-  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: var(--footer-plates-box-shadow);
 }
 
 .footer_socials_plate {
@@ -634,7 +635,7 @@ footer {
   border-radius: 1.1vh;
   padding: 1.25vh 1.25vw;
 
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: var(--footer-plates-box-shadow);
 }
 
 .footer_social_icon {
