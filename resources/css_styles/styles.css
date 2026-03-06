@@ -44,6 +44,10 @@ body {
   display: none;
 }
 
+.VISUALLY-HIDDEN {
+  display: none;
+}
+
 p,
 h1,
 h2,
